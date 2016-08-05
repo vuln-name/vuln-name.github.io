@@ -14,9 +14,9 @@ permalink: /about/
 >
 >Now, sit back and wait for the uninformed public to regurgitate the headlines about “New Vulnerability SUCKS!” If you are a security researcher who dreamed up all the above, start planning your speaking engagements on how the world as we know it will end, because (wait for it), “Everything SUCKS.”
 
-- [https://blogs.oracle.com/maryanndavidson/entry/is_your_shellshocked_poodle_freaked](Mary Ann Davidson - Is Your Shellshocked Poodle Freaked Over Heartbleed?)
+*Source ~ [https://blogs.oracle.com/maryanndavidson/entry/is_your_shellshocked_poodle_freaked](Mary Ann Davidson - Is Your Shellshocked Poodle Freaked Over Heartbleed?)*
 
-Summarizing:
+#### Summarizing:
 
 * It creates excessive focus on issues that are not necessarily truly critical
 * It creates grounds for confusion (as opposed to using CVEs)
