@@ -1,0 +1,19 @@
+# Site settings
+title: "Vuln[Name]"
+baseurl: ""
+url: "https://vulna.me"
+
+github: vuln-name
+twitter: th3zer0
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title
+excerpt_separator: "<!-- more -->"
+
+# Authors
+authors:
+  thezero:
+    url: https://twitter.com/Th3Zer0
+  phosphore:
+    url: https://twitter.com/lorenzostella

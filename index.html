@@ -1,40 +1,30 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="home">
+  <div class="section">
+    <h1 class="section-header">Vulna.me is coming!</h1>
+    <br>
+    Vulna.me is a list of all security vulnerabilities with dedicated names. We hope to deliver it soon :)
+    <br/><br/>
+    What is a Vulnerability? <a href="https://www.owasp.org/index.php/Category:Vulnerability">OWASP have the answer</a>
+    <br>
+  </div>
+  <div class="section">
+    <h1 class="nomargin">Hot Vulnerabilities</h1>
+    <ul class="posts">
+      {% for post in site.posts limit:3 %}
+        <li>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <div>
+            <a class="counter counter-red" href="/{{ post.category }}">{{ post.category }}</a>
+            <span class="post-date">{{ post.date | date: "%b, %Y" }}</span>
+          </div>
+          {{ post.excerpt }}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 
-    <title>Vulna.me</title>
-    <meta name="description" content="A list of all security vulnerabilities with dedicated names.">
-    <style type="text/css">
-      body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0px; padding: 0px; }
-      body { font-style: normal; font-variant: normal; font-weight: 300; font-stretch: normal; font-size: 16px; line-height: 1.5; font-family: 'Open Sans', sans-serif; color: rgb(17, 17, 17); font-kerning: normal; background-color: rgb(253, 253, 253); }
-      h1, h2, h3, h4, h5, h6 { font-weight: 300; text-transform: uppercase; }
-      .wrapper { margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
-      .wrapper::after, .footer-col-wrapper::after { content: ""; display: table; clear: both; }
-      .section { margin-top: 6em; padding-bottom: 2em; padding-top: 2em; margin-left: 1em; margin-bottom: 1em; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(238, 238, 238); border-top-width: 1px; border-top-style: solid; border-top-color: rgb(238, 238, 238); }
-      .section-header { text-transform: uppercase; letter-spacing: 0.4rem; font-weight: 300; }
-    </style>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-</head>
-
-<body>
-    <div class="page-content">
-        <div class="wrapper">
-            <div class="home">
-                <div class="section">
-                    <h1 class="section-header">Vulna.me is coming!</h1>
-                    <br>
-                    Vulna.me is a list of all security vulnerabilities with dedicated names. We hope to deliver it soon :)
-                    <br>
-                    Follow us on Github
-                    <a href="https://github.com/vuln-name" target="_blank">@vuln-name</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
-
-</html>
+</div>
