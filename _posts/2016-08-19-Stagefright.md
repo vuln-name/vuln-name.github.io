@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: draft
+author: none
 title: "Stagefright"
 category: vulnerability
 date: "08/2016"
@@ -8,6 +9,7 @@ date: "08/2016"
 ## Stagefright
 
 The flaw was detected in Google’s open source media library code. The library’s name is Stagefright, hence the name of the vulnerability. The library Stagefright allows Android devices to convert media, including those from MMS messages.
+<!-- more -->
 
 # CVEs (NVD/MITRE)
 CVE-2015-1538
@@ -29,4 +31,3 @@ x/10
 
 # Resources
 "Official" sites/resources link
-

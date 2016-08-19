@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: draft
+author: none
 title: "Heartbleed"
 category: vulnerability
 date: "08/2016"
@@ -8,6 +9,7 @@ date: "08/2016"
 ## Heartbleed
 
 Name given from the Transport Layer Security (TLS) heartbeat extension.
+<!-- more -->
 
 # CVEs (NVD/MITRE)
 CVE-201x-0000, CVE-201x-0001
@@ -23,4 +25,3 @@ x/10
 
 # Resources
 "Official" sites/resources link
-

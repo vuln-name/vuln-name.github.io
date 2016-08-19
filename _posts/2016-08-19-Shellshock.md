@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: draft
+author: none
 title: "Shellshock"
 category: vulnerability
 date: "08/2016"
@@ -8,6 +9,7 @@ date: "08/2016"
 ## Shellshock
 
 Also known as Bashdoor, the name “Shellshock” is a bit of wordplay based on the fact that bash is a “shell”.
+<!-- more -->
 
 # CVEs (NVD/MITRE)
 CVE-2014-6271; (CVE-2014-6277, CVE-2014-6278, CVE-2014-7169, CVE-2014-7186, and CVE-2014-7187)
@@ -23,4 +25,3 @@ x/10
 
 # Resources
 "Official" sites/resources link
-
