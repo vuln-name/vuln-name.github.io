@@ -192,21 +192,46 @@ pre {
   margin: 40px 0 20px;
 }
 
-.post-content h2 {
+
+.post-content h1 {
   font-size: 32px;
   letter-spacing: -1.25px;
 }
 
-.post-content h3 {
+.post-content h2 {
   font-size: 26px;
-  letter-spacing: -1px;
+  letter-spacing: -1.25px;
 }
 
-.post-content h4 {
+.post-content h3 {
   font-size: 20px;
   letter-spacing: -1px;
 }
 
+.post-content h4 {
+  font-size: 14px;
+  letter-spacing: -1px;
+}
+
+.post-content h5 {
+  font-size: 8px;
+  letter-spacing: -1px;
+}
+
+.post-content img { 
+    float: right;
+    height: 150px;
+    width: 150px;
+    padding: 5px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .post-content img { 
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
 .post-content blockquote {
   border-left: 4px solid #e8e8e8;
   padding-left: 20px;
