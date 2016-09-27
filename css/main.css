@@ -435,6 +435,11 @@ table {
   margin-right: auto;
 }
 
+.post-content table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 tr {
   border: solid 1px #000;
 }
