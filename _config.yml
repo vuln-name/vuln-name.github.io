@@ -1,7 +1,7 @@
 # Site settings
 title: "Vuln[Name]"
 baseurl: ""
-url: "https://vulna.me"
+url: "http://vulna.me"
 
 github: vuln-name
 twitter: th3zer0
