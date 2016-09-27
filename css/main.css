@@ -442,6 +442,12 @@ td {
   border: solid 1px #000;
 }
 
+th {
+    padding: 0.4em 0.6em;
+    border: solid 1px #000;
+    font-weight: lighter;
+}
+
 blockquote {
     padding: 10px 20px;
     margin: 0px 0px 20px;

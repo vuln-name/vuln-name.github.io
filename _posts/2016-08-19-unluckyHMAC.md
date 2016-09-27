@@ -9,7 +9,7 @@ date: "05/2016"
 ## UnluckyHMAC  
 UnluckyHMAC (also know LuckyMinus20, FreezerBurn) was the original name given by Juraj Somorovsky, the researcher who discovered the vulnerability.  
 
->because our HMAC is sad not to be able to validate bytes :)  
+> [...] because our HMAC is sad not to be able to validate bytes :)  
 
 <!-- more -->
 Source: [Juraj Somorovsky](http://web-in-security.blogspot.it/2016/05/curious-padding-oracle-in-openssl-cve.html)  
