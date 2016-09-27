@@ -3,8 +3,8 @@
   <div class="wrap">
 
     <ul>
-      <li>{{ site.teamname }}</li>
-      <li>-|-</li>
+      <li><span class="motto2">For Hackers, by Hackers</span></li>
+      <li>-</li>
       <li>
         visit us on
         {% if site.github %}
@@ -13,20 +13,8 @@
           <span class="servicename">github</span>
         </a>
         {% endif %}
-        -
-        {% if site.twitter %}
-        <a href="https://twitter.com/{{ site.twitter }}">
-          <i class="fa fa-twitter"></i>
-          <span class="servicename">twitter</span>
-        </a>
-        {% endif %}
-        -
-        {% if site.ctftime %}
-        <a href="{{ site.ctftime }}">
-          <span class="servicename">ctftime.org</span>
-        </a>
-        {% endif %}
       </li>
+      <li>-</li>
       <li>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></li>
     </ul>
 

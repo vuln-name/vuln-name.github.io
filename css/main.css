@@ -1,6 +1,8 @@
 /* Base */
 /* ----------------------------------------------------------*/
 
+@import 'https://fonts.googleapis.com/css?family=VT323';
+
 * {
   margin: 0;
   padding: 0;
@@ -480,7 +482,7 @@ blockquote {
 .tags {
   list-style-type: none;
 }
-
+ 
 img {
 	display:block;
 	max-width:100%;
@@ -518,4 +520,9 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.4rem;
   font-weight: 300;
+}
+
+.motto2 {
+  font-family: 'VT323', monospace;
+  font-size: 17pt;
 }
