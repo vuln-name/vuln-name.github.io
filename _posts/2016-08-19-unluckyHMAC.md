@@ -3,22 +3,24 @@ layout: post
 author: phosphore
 title: "UnluckyHMAC"
 category: vulnerability
-date: "08/2016"
+date: "05/2016"
 ---
 
 ## UnluckyHMAC  
 UnluckyHMAC (also know LuckyMinus20, FreezerBurn) was the original name given by Juraj Somorovsky, the researcher who discovered the vulnerability.  
-> ...because our HMAC is sad not to be able to validate bytes :)  
+
+>because our HMAC is sad not to be able to validate bytes :)  
+
 <!-- more -->
 Source: [Juraj Somorovsky](http://web-in-security.blogspot.it/2016/05/curious-padding-oracle-in-openssl-cve.html)  
 
 LuckyMinus20 is the name given by Filippo Valsorda in [his post on the CloudFlare's blog](https://blog.cloudflare.com/yet-another-padding-oracle-in-openssl-cbc-ciphersuites/).  
-
+	
 # CVEs (NVD/MITRE)
 [CVE-2016-2107](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2107) (Padding oracle in AES-NI CBC MAC check), a consequence of CVE-2013-0169's incorrect fix.
 
 # Detection
-Juraj Somorovsky  
+**Detected by:** Juraj Somorovsky  
 
 ## Timeline
 05/03/2016 - First detection  
