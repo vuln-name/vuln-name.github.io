@@ -17,9 +17,17 @@ Also known as Bashdoor, the name “Shellshock” is a bit of wordplay based on 
 [CVE-2014-6271](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-6271); ([CVE-2014-6277](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-6277), [CVE-2014-6278](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-6278), [CVE-2014-7169](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-7169), [CVE-2014-7186](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-7186), and [CVE-2014-7187](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-7187))
 <br/>**NOTE:** *Some vulnerability exists because of an incomplete fix for other ones.*
 
-# First Detection Date
-<br/>12/09/2014 - First Detection
-<br/>24/09/2014 - Public Disclosure
+# Detection
+
+Detected by: Stéphane Chazelas (first Deteciton), David A. Wheeler and Norihiro Tanaka, Michał Zalewski, Tavis Ormandy, Florian Weimer and Todd Sabin (Additional bug/issue/exploit)
+
+## Timeline
+12/09/2014 - First Detection<br/>
+24/09/2014 - Public Disclosure<br/>
+26/09/2014 - Additional bug detected (on patched Systems) + Exploit released<br/>
+27/09/2014 - Additional bug detected<br/>
+30/09/2014 - Final patch released<br/>
+
 
 # Description
 
@@ -47,5 +55,7 @@ Shellshock could potentially compromise millions of unpatched servers and other 
 10.0/10.0 HIGH
 
 # Resources
-<br/>[https://shellshocker.net/ on the WayBackMachine](https://web.archive.org/web/20150913063755/https://shellshocker.net/)
-<br/>[Official Shellshocker GitHub Repository](https://github.com/wreiske/shellshocker)
+[NVD NIST](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-6271)<br/>
+[CVE MITRE](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6271)<br/>
+[https://shellshocker.net/ on the WayBackMachine](https://web.archive.org/web/20150913063755/https://shellshocker.net/)<br/>
+[Official Shellshocker GitHub Repository](https://github.com/wreiske/shellshocker)<br/>
