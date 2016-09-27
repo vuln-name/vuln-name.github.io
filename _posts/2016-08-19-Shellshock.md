@@ -19,7 +19,7 @@ Also known as Bashdoor, the name “Shellshock” is a bit of wordplay based on 
 
 # Detection
 
-Detected by: Stéphane Chazelas (first Deteciton), David A. Wheeler and Norihiro Tanaka, Michał Zalewski, Tavis Ormandy, Florian Weimer and Todd Sabin (Additional bug/issue/exploit)
+**Detected by:** Stéphane Chazelas *(first Deteciton)*, David A. Wheeler and Norihiro Tanaka, Michał Zalewski, Tavis Ormandy, Florian Weimer and Todd Sabin *(Additional bug/issue/exploit)*
 
 ## Timeline
 12/09/2014 - First Detection<br/>
